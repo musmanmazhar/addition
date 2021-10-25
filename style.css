@@ -1,0 +1,49 @@
+body{
+    margin: auto;
+    text-align: center;
+    font-family: 'Mukta';
+}
+
+.header{
+    margin-bottom: 100px;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fa-plus, .fa-equals{
+    font-size: 30px;
+}
+
+.sec{
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+}
+
+.g{
+    height: 30px;
+    border: 1px solid rgb(201, 201, 201);
+    margin: 5px;
+}
+
+#bsub{
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #467fd0;
+    color:rgb(255, 255, 255);
+    transition: 0.25s;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#bsub:hover{
+    background-color: #2966bb;
+}
